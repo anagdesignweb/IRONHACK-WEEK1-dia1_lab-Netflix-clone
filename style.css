@@ -1,0 +1,112 @@
+/*
+Fonts:
+font-family: 'Arimo', sans-serif;
+*/
+
+
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+}
+header, main, footer {
+    padding: 30px 40px;
+}
+
+h2 {
+    font-size: 3.125rem;
+}
+h3{
+   font-size: 1.625rem; 
+   margin: 16px 12px;
+}
+h4 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+/* -- header -- */
+.header{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/fondo-portada.jpg);
+}
+
+.div-container-header{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+
+.div-logo{
+    width: 60%;
+}
+.img-logoNetflix{
+    width: 150px;
+
+}
+.div-credenciales{
+
+    width: 40%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.div-credenciales > div{
+    height: 37px;
+
+}
+.div-idioma{
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.boton-sesion {
+    color: white;
+    background-color: red;
+    border: none;
+    font-weight: 400;
+    padding: 7px 15px;
+    width: 150px;
+    border-radius: 4px;
+}
+.div-1{
+    height: 475px;
+    border: 1px solid purple;
+    padding: 75px 0;
+}
+.div-texto{
+    text-align: center;
+}
+.div-form-portada{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.div-form-portada > div {
+    margin: 10px;
+    height: 60px;
+    padding: 10px 10px 0;
+    align-items: center;
+}
+.div-form-portada > div > input {
+    width: 500px;
+    height: 100%;
+}
+.div-form-portada > div > button {
+    height: 100%;
+    background: #f40612;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0 1em;
+}
